@@ -1,6 +1,6 @@
-function Description ({title, description}) {
+function Description ({name, title, description}) {
     return (
-        <div>
+        <div className={name}>
             <h2>{title}</h2>
             <p>{description}</p>
         </div>
