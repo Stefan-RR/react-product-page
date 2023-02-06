@@ -1,6 +1,6 @@
 function Container (props) {
     return (
-        <div>
+        <div className={props.className}>
             {props.children}
         </div>
     )

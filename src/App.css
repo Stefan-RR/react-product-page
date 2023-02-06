@@ -1,16 +1,39 @@
+.App {
+  height: 100vh;
+  margin: 0;
+}
 .Header {
   display: flex;
   flex-direction: row;
   margin: 0 20% 0;
   text-align: center;
+  height: 50px;
 }
 .Header a {
   margin: 0 10% 0;
 }
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.image-container {
+  width: 48%;
+  height: 70vh;
+}
 .main-pic {
-  width: 40%;
+  width: 100%;
+  height: 80vh;
 }
 .main-description {
-  width: 40%;
+  width: 48%;
+}
+.small-pic {
+  width: 10%;
+  height: 4%;
+  padding: 0 7.5% 0
 }
 
